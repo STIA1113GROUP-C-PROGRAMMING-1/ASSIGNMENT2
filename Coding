@@ -1,0 +1,287 @@
+package assignment2;
+import java.util.Scanner;
+public class Garden {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		double price1 = 25.0; //price for children
+		double price2 = 30.0; //price for adult
+		double price3 = 45.0; //price for senior
+		
+		System.out.println("\n*******************************************" + "\n\n WELCOME TO PERDANA BOTANICAL GARDEN"
+				+ "\n\n\n*******************************************");
+		
+		System.out.println("\nPlease enter your name: ");
+		String name = sc.next();
+		
+		System.out.println("\nPlease enter your age: ");
+		int age = sc.nextInt();
+		
+		System.out.println("\nPlease enter your email: ");
+		String email = sc.next();
+		
+		System.out.println("\nPlease enter your phone number: ");
+		String phone = sc.next();
+		
+		System.out.println("\n**TICKET RESERVATION**");
+		
+		System.out.println("\nNumber of children: ");
+		int a = sc.nextInt();
+		
+		System.out.println("\nNumber of adult: ");
+		int b = sc.nextInt();
+		
+		System.out.println("\nNumber of senior: ");
+		int c = sc.nextInt();
+		int no = a + b + c;
+
+		System.out.println("\nAre you a member of Perdana Botanical Garden?");
+		boolean member = sc.nextBoolean();
+		
+		if (member==true) {
+		System.out.println("\n*******************************************************************************"
+				+ "\n Attention to all members, please check your validation date for membership.  \n Membership renewal notices will be sent by email only and payment"
+				+ " is due by  \n 31 December. Unpaid members as of 1 January will lose membership privileges  \n until"
+				+ " their dues are paid. Thankyou.                                        "
+				+ "\n We will send notification to " + email+ " and deliver message    \n at " 
+				+ phone + "                                                              "
+				+ "\n*******************************************************************************");
+		}
+		
+		System.out.println("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		System.out.println("NAME            : " + name);
+		System.out.println("EMAIL           : " + email);
+		System.out.println("PHONE NUMBER    : " + phone);
+		System.out.println("AGE             : " + age);
+		System.out.println("TOTAL OF PEOPLE : " + no);
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		
+		
+		
+		System.out.println("\nTo see all the packages that available, please enter 1");
+		int in = sc.nextInt();
+		
+		while(in!=1) {
+			System.out.println("Please try again!");
+			in = sc.nextInt();
+		}
+		
+		System.out.print("\n========================================================================================");
+		System.out.print("\nPACKAGE A: " + "\n1. Time given: 2 hours" + "\n2. Free parking ticket" + 
+		"\n3. Unlimited Wi-Fi access");
+		System.out.println("\n________________________________________________________________________________________");
+		System.out.println("========================================================================================");
+		
+		System.out.print("\n========================================================================================");
+		System.out.print("\nPACKAGE B: " + "\n1. Time given: 3 hours" + "\n2. Free parking ticket" + 
+		"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks");
+		System.out.println("\n________________________________________________________________________________________");
+		System.out.println("========================================================================================");
+		
+		System.out.print("\n========================================================================================");
+		System.out.print("\nPACKAGE C: " + "\n1. Time given: 4 hours" + "\n2. Free parking ticket" + 
+		"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" + "\n5. Free exclusive Perdana "
+		+ "botanical Garden's shirt and cap per person");
+		System.out.println("\n________________________________________________________________________________________");
+		System.out.println("========================================================================================");
+		
+		System.out.print("\n========================================================================================");
+		System.out.print("\nPACKAGE D: " + "\n1. Time given: 5 to 7 hours" + "\n2. Free parking ticket" + 
+		"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" +
+		"\n5. Free exclusive Perdana Botanical Garden's shirt and cap per person" + 
+		"\n6. Free golden vouchers exclusive from Perdana Botanical Garden" + "\n7. Garden tour guide provided");
+		System.out.println("\n________________________________________________________________________________________");
+		System.out.println("========================================================================================");
+		
+		System.out.print("\n========================================================================================");
+		System.out.print("\nPACKAGE E: " + "\n1. Time given: 24 hours" + "\n2. Free parking ticket" + 
+		"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" +
+		"\n5. Free exclusive Perdana Botanical Garden's shirt and cap per person" + 
+		"\n6. Free golden vouchers exclusive from Perdana Botanical Garden" + "\n7. Garden tour guide provided" + 
+		"\n8. Free access and unlimited time to all fun activities and games :" + "\n   -golf" + "\n   -horse riding" + 
+		"\n   -mini zoo" + "\n   -flower garden");
+		System.out.println("\n________________________________________________________________________________________");
+		System.out.println("========================================================================================");
+		
+		System.out.println("\nFor the price, please enter 1 ");
+		int t = sc.nextInt();
+		while(t!=1) { 
+			System.out.println("Sorry, wrong code. Please try again");
+		    t = sc.nextInt();
+		}
+		if(t==1) {
+		    double x = ((a*price1) + (b*price2) + (c*price3));
+		    double y = x+30;
+		    double z = y+50;
+		    double h = z+100;
+		    double i = h+200;
+		    System.out.println(" _______________________________________________________________");
+		    System.out.println("| PACKAGES     |" + " FOR MEMBERS           |" + " FOR NON-MEMBERS       |");
+		    System.out.println(" ---------------------------------------------------------------");
+		    System.out.println("|1.PACKAGE A   |   " + (x*0.8) + "                |" + x + "                  |");
+		    System.out.println("|1.PACKAGE B   |   " + (y*0.8) + "               |" + y + "                  |");
+		    System.out.println("|1.PACKAGE C   |   " + (z*0.8) + "               |" + z + "                  |");
+		    System.out.println("|1.PACKAGE D   |   " + (h*0.8) + "               |" + h + "                  |");
+		    System.out.println("|1.PACKAGE E   |   " + (i*0.8) + "               |" + i + "                  |");
+		    System.out.println(" ---------------------------------------------------------------");
+		
+		System.out.println("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>" + 
+		"\n1. -A- PACKAGE A" + "\n2. -B- PACKAGE B" + "\n3. -C- PACKAGE C" + "\n4. -D- PACKAGE D" + "\n5. -E- PACKAGE E" +
+		"\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+		
+		System.out.println("\nDear " + name + ",\nplease enter any of package above to proceed");
+		char p = sc.next().charAt(0);
+		
+		while(p!='A' && p!='B' && p!='C' && p!='D' && p!='E') {
+			System.out.println("Sorry there's no package " + p);
+			System.out.print("Please try again: " );
+			p = sc.next().charAt(0);
+		}
+		
+		if(p=='A') {
+			System.out.print("\n========================================================================================");
+			System.out.print("\nPACKAGE A: " + "\n1. Time given: 2 hours" + "\n2. Free parking ticket" + 
+			"\n3. Unlimited Wi-Fi access");
+			double pricea = ((a*price1) + (b*price2) + (c*price3));
+			double priceab = (pricea*0.8);
+			System.out.println("\n________________________________________________________________________________________");
+			System.out.println("\nNormal price: " + "RM " + pricea + "\nWith member card price(20% off): " + "RM " + priceab);
+			System.out.println("________________________________________________________________________________________");
+			System.out.println("========================================================================================");
+		}
+		
+		else if(p=='B') {
+			System.out.print("\n========================================================================================");
+			System.out.print("\nPACKAGE B: " + "\n1. Time given: 3 hours" + "\n2. Free parking ticket" + 
+			"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks");
+			double pricea = ((a*price1) + (b*price2) + (c*price3));
+			double priceac = pricea+30;
+			double pricead = priceac*0.8;
+			System.out.println("\n________________________________________________________________________________________");
+			System.out.println("\nNormal price: " + "RM " + priceac + "\nWith member card price(20% off): " + "RM " + pricead);
+			System.out.println("________________________________________________________________________________________");
+			System.out.println("========================================================================================");
+		}
+		
+		else if(p=='C') {
+			System.out.print("\n========================================================================================");
+			System.out.print("\nPACKAGE C: " + "\n1. Time given: 4 hours" + "\n2. Free parking ticket" + 
+			"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" + "\n5. Free exclusive Perdana "
+			+ "botanical Garden's shirt and cap per person");
+			double pricea = ((a*price1) + (b*price2) + (c*price3));
+			double priceac = pricea+30;
+			double priceae = priceac+50;
+			double priceaf = priceae*0.8;
+			System.out.println("\n________________________________________________________________________________________");
+			System.out.println("\nNormal price: " + "RM " + priceae + "\nWith member card price(20% off): " + "RM " + priceaf);
+			System.out.println("________________________________________________________________________________________");
+			System.out.println("========================================================================================");
+		}
+		
+		else if(p=='D') {
+			
+			System.out.print("\n========================================================================================");
+			System.out.print("\nPACKAGE D: " + "\n1. Time given: 5 to 7 hours" + "\n2. Free parking ticket" + 
+			"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" +
+			"\n5. Free exclusive Perdana Botanical Garden's shirt and cap per person" + 
+			"\n6. Free golden vouchers exclusive from Perdana Botanical Garden" + "\n7. Garden tour guide provided");
+			double pricea = ((a*price1) + (b*price2) + (c*price3));
+			double priceac = pricea+30;
+			double priceae = priceac+50;
+			double priceag = priceae+100;
+			double priceah = priceag*0.8;
+			System.out.println("\n________________________________________________________________________________________");
+			System.out.println("\nNormal price: " + "RM " + priceag + "\nWith member card price(20% off): " + "RM " + priceah);
+			System.out.println("________________________________________________________________________________________");
+			System.out.println("========================================================================================");
+		}
+		
+		else if(p=='E') {
+			
+			System.out.print("\n========================================================================================");
+			System.out.print("\nPACKAGE E: " + "\n1. Time given: 24 hours" + "\n2. Free parking ticket" + 
+			"\n3. Unlimited Wi-Fi access" + "\n4. Free food and drinks" +
+			"\n5. Free exclusive Perdana Botanical Garden's shirt and cap per person" + 
+			"\n6. Free golden vouchers exclusive from Perdana Botanical Garden" + "\n7. Garden tour guide provided" + 
+			"\n8. Free access and unlimited time to all fun activities and games :" + "\n   -golf" + "\n   -horse riding" + 
+			"\n   -mini zoo" + "\n   -flower garden");
+			double pricea = ((a*price1) + (b*price2) + (c*price3));
+			double priceac = pricea+30;
+			double priceae = priceac+50;
+			double priceag = priceae+100;
+			double priceai = priceag+200;
+			double priceaj = priceai*0.8;
+			System.out.println("\n________________________________________________________________________________________");
+			System.out.println("\nNormal price: " + "RM " + priceai + "\nWith member card price(20% off): " + "RM " + priceaj);
+			System.out.println("________________________________________________________________________________________");
+			System.out.println("========================================================================================");
+			
+		}
+		System.out.println("\nIf interested, please enter 1 (yes) and if you want to cancel "
+				+ "please enter 2 ");
+		int j = sc.nextInt();
+		
+		switch(j) {
+		case 1:
+			System.out.println("Thankyou ! You can proceed with payment");
+			System.out.println("\nPAYMENT METHOD: \n1.ONLINE BANKING \n2.BANK IN \n3.CASH PAYMENT AT CONVENIENCE STORES");
+			System.out.println("\nPLEASE CHOOSE ");
+			int rp = sc.nextInt();
+			while(rp!=1 && rp!=2 && rp!=3) {
+				System.out.println("INVALID! TRY AGAIN!");
+				rp = sc.nextInt();
+			}
+			if(rp==1) {
+				System.out.println("[1]Maybank2u \n[2]CIMB Clicks \n[3]Public Bank \n[4]RHB Now \n[5]Ambank"
+						+ "\n[6]MyBSN \n[7]UOB \n[8]Affin Bank \n[9]Bank Islam \n[10]HSBC Online \n[11]Standard Chartered Bank");
+				System.out.println("\nPLEASE CHOOSE YOUR BANK TYPE");
+				int nr = sc.nextInt();
+				while(nr!=1 && nr!=2 && nr!=3 && nr!=4 && nr!=5 && nr!=6 && nr!=7 && nr!=8 && nr!=9 && nr!= 10 && nr!=11) {
+					System.out.println("INVALID! TRY AGAIN!");
+					nr = sc.nextInt();
+				}
+				System.out.println("You are now redirecting to the online banking log in page.....");
+				for (int s=2;s>=0;s--) {
+					System.out.println("\nEnter your account password: ");
+					int d = sc.nextInt();
+					System.out.println("Password confirmation: ");
+					int pass = sc.nextInt();
+					if(d==pass) {
+					  System.out.println("Your password is correct and your money have been deducted. Thannkyou for the payment! ");
+					  break;
+					}
+					else {
+						System.out.print("Your password is incorrect! You have " + s + " chance. ");
+					    System.out.println();
+					}
+					if(s==0) {
+						System.out.print("Sorry, unsuccessful to login! For security, you are unable to continue the login!");	
+						break;
+					}
+				}
+			}
+			else if(rp==2) {
+				System.out.println("Please bank in to our account: 02 0110 1310 8452 (BANK ISLAM)(PERDANA BOTANICAL GARDEN) \n before 12 pm tomorrow. THANKYOU!");
+				break;
+			}
+			else if(rp==3) {
+				System.out.println("[A] Cash Payment at 7-Eleven \n[B] Cash Payment at KK Mart");
+				System.out.println("\nPlease enter ");
+				char jj = sc.next().charAt(0);
+				while(jj!='A' && jj!='B') {
+					System.out.println("INVALID! TRY AGAIN!");
+					jj = sc.next().charAt(0);
+				}
+				System.out.println("Thankyou! We have notified by your booking! Please pay before tomorrow at 12 pm. Thankyou! ");
+				break;
+				}
+			break;
+		case 2:
+			System.out.println("Thankyou for visiting! Hope to see you real soon!");
+			break;
+			}
+			}
+		sc.close();
+	}
+}
