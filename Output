@@ -1,0 +1,523 @@
+//payment with online banking
+
+*******************************************
+
+ WELCOME TO PERDANA BOTANICAL GARDEN
+
+
+*******************************************
+
+Please enter your name: 
+Najjah
+
+Please enter your age: 
+21
+
+Please enter your email: 
+nuraqilnajjah@gmail.com
+
+Please enter your phone number: 
+019-9130649
+
+**TICKET RESERVATION**
+
+Number of children: 
+1
+
+Number of adult: 
+1
+
+Number of senior: 
+1
+
+Are you a member of Perdana Botanical Garden?
+true
+
+*******************************************************************************
+ Attention to all members, please check your validation date for membership.  
+ Membership renewal notices will be sent by email only and payment is due by  
+ 31 December. Unpaid members as of 1 January will lose membership privileges  
+ until their dues are paid. Thankyou.                                        
+ We will send notification to nuraqilnajjah@gmail.com and deliver message    
+ at 019-9130649                                                              
+*******************************************************************************
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+NAME            : Najjah
+EMAIL           : nuraqilnajjah@gmail.com
+PHONE NUMBER    : 019-9130649
+AGE             : 21
+TOTAL OF PEOPLE : 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To see all the packages that available, please enter 1
+1
+
+========================================================================================
+PACKAGE A: 
+1. Time given: 2 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+________________________________________________________________________________________
+========================================================================================
+
+========================================================================================
+PACKAGE B: 
+1. Time given: 3 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+________________________________________________________________________________________
+========================================================================================
+
+========================================================================================
+PACKAGE C: 
+1. Time given: 4 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Perdana botanical Garden's shirt and cap per person
+________________________________________________________________________________________
+========================================================================================
+
+========================================================================================
+PACKAGE D: 
+1. Time given: 5 to 7 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Perdana Botanical Garden's shirt and cap per person
+6. Free golden vouchers exclusive from Perdana Botanical Garden
+7. Garden tour guide provided
+________________________________________________________________________________________
+========================================================================================
+
+========================================================================================
+PACKAGE E: 
+1. Time given: 24 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Perdana Botanical Garden's shirt and cap per person
+6. Free golden vouchers exclusive from Perdana Botanical Garden
+7. Garden tour guide provided
+8. Free access and unlimited time to all fun activities and games :
+   -golf
+   -horse riding
+   -mini zoo
+   -flower garden
+________________________________________________________________________________________
+========================================================================================
+
+For the price, please enter 1 
+1
+ _______________________________________________________________
+| PACKAGES     | FOR MEMBERS           | FOR NON-MEMBERS       |
+ ---------------------------------------------------------------
+|1.PACKAGE A   |   80.0                |100.0                  |
+|2.PACKAGE B   |   104.0               |130.0                  |
+|3.PACKAGE C   |   144.0               |180.0                  |
+|4.PACKAGE D   |   224.0               |280.0                  |
+|5.PACKAGE E   |   384.0               |480.0                  |
+ ---------------------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+1. -A- PACKAGE A
+2. -B- PACKAGE B
+3. -C- PACKAGE C
+4. -D- PACKAGE D
+5. -E- PACKAGE E
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Dear Najjah,
+please enter any of package above to proceed
+E
+
+========================================================================================
+PACKAGE E: 
+1. Time given: 24 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Perdana Botanical Garden's shirt and cap per person
+6. Free golden vouchers exclusive from Perdana Botanical Garden
+7. Garden tour guide provided
+8. Free access and unlimited time to all fun activities and games :
+   -golf
+   -horse riding
+   -mini zoo
+   -flower garden
+________________________________________________________________________________________
+
+Normal price: RM 480.0
+With member card price(20% off): RM 384.0
+________________________________________________________________________________________
+========================================================================================
+
+If interested, please enter 1 (yes) and if you want to cancel please enter 2 
+1
+Thankyou ! You can proceed with payment
+
+PAYMENT METHOD: 
+1.ONLINE BANKING 
+2.BANK IN 
+3.CASH PAYMENT AT CONVENIENCE STORES
+
+PLEASE CHOOSE 
+1
+[1]Maybank2u 
+[2]CIMB Clicks 
+[3]Public Bank 
+[4]RHB Now 
+[5]Ambank
+[6]MyBSN 
+[7]UOB 
+[8]Affin Bank 
+[9]Bank Islam 
+[10]HSBC Online 
+[11]Standard Chartered Bank
+
+PLEASE CHOOSE YOUR BANK TYPE
+9
+You are now redirecting to the online banking log in page.....
+
+Enter your account password: 
+12345
+Password confirmation: 
+12345
+Your password is correct and your money have been deducted. Thannkyou for the payment! 
+
+//payment by bank in
+
+*******************************************
+
+ WELCOME TO PERDANA BOTANICAL GARDEN
+
+
+*******************************************
+
+Please enter your name: 
+Najjah
+
+Please enter your age: 
+21
+
+Please enter your email: 
+nuraqilnajjah@gmail.com
+
+Please enter your phone number: 
+019-9130649
+
+**TICKET RESERVATION**
+
+Number of children: 
+1
+
+Number of adult: 
+1
+
+Number of senior: 
+1
+
+Are you a member of Perdana Botanical Garden?
+true
+
+*******************************************************************************
+ Attention to all members, please check your validation date for membership.  
+ Membership renewal notices will be sent by email only and payment is due by  
+ 31 December. Unpaid members as of 1 January will lose membership privileges  
+ until their dues are paid. Thankyou.                                        
+ We will send notification to nuraqilnajjah@gmail.com and deliver message    
+ at 019-9130649                                                              
+*******************************************************************************
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+NAME            : Najjah
+EMAIL           : nuraqilnajjah@gmail.com
+PHONE NUMBER    : 019-9130649
+AGE             : 21
+TOTAL OF PEOPLE : 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To see all the packages that available, please enter 1
+1
+
+========================================================================================
+PACKAGE A: 
+1. Time given: 2 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+________________________________________________________________________________________
+========================================================================================
+
+========================================================================================
+PACKAGE B: 
+1. Time given: 3 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+________________________________________________________________________________________
+========================================================================================
+
+========================================================================================
+PACKAGE C: 
+1. Time given: 4 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Perdana botanical Garden's shirt and cap per person
+________________________________________________________________________________________
+========================================================================================
+
+========================================================================================
+PACKAGE D: 
+1. Time given: 5 to 7 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Perdana Botanical Garden's shirt and cap per person
+6. Free golden vouchers exclusive from Perdana Botanical Garden
+7. Garden tour guide provided
+________________________________________________________________________________________
+========================================================================================
+
+========================================================================================
+PACKAGE E: 
+1. Time given: 24 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Perdana Botanical Garden's shirt and cap per person
+6. Free golden vouchers exclusive from Perdana Botanical Garden
+7. Garden tour guide provided
+8. Free access and unlimited time to all fun activities and games :
+   -golf
+   -horse riding
+   -mini zoo
+   -flower garden
+________________________________________________________________________________________
+========================================================================================
+
+For the price, please enter 1 
+1
+ _______________________________________________________________
+| PACKAGES     | FOR MEMBERS           | FOR NON-MEMBERS       |
+ ---------------------------------------------------------------
+|1.PACKAGE A   |   80.0                |100.0                  |
+|2.PACKAGE B   |   104.0               |130.0                  |
+|3.PACKAGE C   |   144.0               |180.0                  |
+|4.PACKAGE D   |   224.0               |280.0                  |
+|5.PACKAGE E   |   384.0               |480.0                  |
+ ---------------------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+1. -A- PACKAGE A
+2. -B- PACKAGE B
+3. -C- PACKAGE C
+4. -D- PACKAGE D
+5. -E- PACKAGE E
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Dear Najjah,
+please enter any of package above to proceed
+E
+
+========================================================================================
+PACKAGE E: 
+1. Time given: 24 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Perdana Botanical Garden's shirt and cap per person
+6. Free golden vouchers exclusive from Perdana Botanical Garden
+7. Garden tour guide provided
+8. Free access and unlimited time to all fun activities and games :
+   -golf
+   -horse riding
+   -mini zoo
+   -flower garden
+________________________________________________________________________________________
+
+Normal price: RM 480.0
+With member card price(20% off): RM 384.0
+________________________________________________________________________________________
+========================================================================================
+
+If interested, please enter 1 (yes) and if you want to cancel please enter 2 
+1
+Thankyou ! You can proceed with payment
+
+PAYMENT METHOD: 
+1.ONLINE BANKING 
+2.BANK IN 
+3.CASH PAYMENT AT CONVENIENCE STORES
+
+PLEASE CHOOSE 
+2
+Please bank in to our account: 02 0110 1310 8452 (BANK ISLAM)(PERDANA BOTANICAL GARDEN) 
+ before 12 pm tomorrow. THANKYOU!
+
+//cash payment at convenience stores
+
+*******************************************
+
+ WELCOME TO PERDANA BOTANICAL GARDEN
+
+
+*******************************************
+
+Please enter your name: 
+Najjah
+
+Please enter your age: 
+21
+
+Please enter your email: 
+nuraqilnajjah@gmail.com
+
+Please enter your phone number: 
+019-9130649
+
+**TICKET RESERVATION**
+
+Number of children: 
+1
+
+Number of adult: 
+1
+
+Number of senior: 
+1
+
+Are you a member of Perdana Botanical Garden?
+true
+
+*******************************************************************************
+ Attention to all members, please check your validation date for membership.  
+ Membership renewal notices will be sent by email only and payment is due by  
+ 31 December. Unpaid members as of 1 January will lose membership privileges  
+ until their dues are paid. Thankyou.                                        
+ We will send notification to nuraqilnajjah@gmail.com and deliver message    
+ at 019-9130649                                                              
+*******************************************************************************
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+NAME            : Najjah
+EMAIL           : nuraqilnajjah@gmail.com
+PHONE NUMBER    : 019-9130649
+AGE             : 21
+TOTAL OF PEOPLE : 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To see all the packages that available, please enter 1
+1
+
+========================================================================================
+PACKAGE A: 
+1. Time given: 2 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+________________________________________________________________________________________
+========================================================================================
+
+========================================================================================
+PACKAGE B: 
+1. Time given: 3 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+________________________________________________________________________________________
+========================================================================================
+
+========================================================================================
+PACKAGE C: 
+1. Time given: 4 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Perdana botanical Garden's shirt and cap per person
+________________________________________________________________________________________
+========================================================================================
+
+========================================================================================
+PACKAGE D: 
+1. Time given: 5 to 7 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Perdana Botanical Garden's shirt and cap per person
+6. Free golden vouchers exclusive from Perdana Botanical Garden
+7. Garden tour guide provided
+________________________________________________________________________________________
+========================================================================================
+
+========================================================================================
+PACKAGE E: 
+1. Time given: 24 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+4. Free food and drinks
+5. Free exclusive Perdana Botanical Garden's shirt and cap per person
+6. Free golden vouchers exclusive from Perdana Botanical Garden
+7. Garden tour guide provided
+8. Free access and unlimited time to all fun activities and games :
+   -golf
+   -horse riding
+   -mini zoo
+   -flower garden
+________________________________________________________________________________________
+========================================================================================
+
+For the price, please enter 1 
+1
+ _______________________________________________________________
+| PACKAGES     | FOR MEMBERS           | FOR NON-MEMBERS       |
+ ---------------------------------------------------------------
+|1.PACKAGE A   |   80.0                |100.0                  |
+|2.PACKAGE B   |   104.0               |130.0                  |
+|3.PACKAGE C   |   144.0               |180.0                  |
+|4.PACKAGE D   |   224.0               |280.0                  |
+|5.PACKAGE E   |   384.0               |480.0                  |
+ ---------------------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+1. -A- PACKAGE A
+2. -B- PACKAGE B
+3. -C- PACKAGE C
+4. -D- PACKAGE D
+5. -E- PACKAGE E
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Dear Najjah,
+please enter any of package above to proceed
+A
+
+========================================================================================
+PACKAGE A: 
+1. Time given: 2 hours
+2. Free parking ticket
+3. Unlimited Wi-Fi access
+________________________________________________________________________________________
+
+Normal price: RM 100.0
+With member card price(20% off): RM 80.0
+________________________________________________________________________________________
+========================================================================================
+
+If interested, please enter 1 (yes) and if you want to cancel please enter 2 
+1
+Thankyou ! You can proceed with payment
+
+PAYMENT METHOD: 
+1.ONLINE BANKING 
+2.BANK IN 
+3.CASH PAYMENT AT CONVENIENCE STORES
+
+PLEASE CHOOSE 
+3
+[A] Cash Payment at 7-Eleven 
+[B] Cash Payment at KK Mart
+
+Please enter 
+A
+Thankyou! We have notified by your booking! Please pay before tomorrow at 12 pm. Thankyou! 
