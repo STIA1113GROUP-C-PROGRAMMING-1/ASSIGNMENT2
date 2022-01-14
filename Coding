@@ -120,10 +120,10 @@ public class Garden {
 		    System.out.println("| PACKAGES     |" + " FOR MEMBERS           |" + " FOR NON-MEMBERS       |");
 		    System.out.println(" ---------------------------------------------------------------");
 		    System.out.println("|1.PACKAGE A   |   " + (x*0.8) + "                |" + x + "                  |");
-		    System.out.println("|1.PACKAGE B   |   " + (y*0.8) + "               |" + y + "                  |");
-		    System.out.println("|1.PACKAGE C   |   " + (z*0.8) + "               |" + z + "                  |");
-		    System.out.println("|1.PACKAGE D   |   " + (h*0.8) + "               |" + h + "                  |");
-		    System.out.println("|1.PACKAGE E   |   " + (i*0.8) + "               |" + i + "                  |");
+		    System.out.println("|2.PACKAGE B   |   " + (y*0.8) + "               |" + y + "                  |");
+		    System.out.println("|3.PACKAGE C   |   " + (z*0.8) + "               |" + z + "                  |");
+		    System.out.println("|4.PACKAGE D   |   " + (h*0.8) + "               |" + h + "                  |");
+		    System.out.println("|5.PACKAGE E   |   " + (i*0.8) + "               |" + i + "                  |");
 		    System.out.println(" ---------------------------------------------------------------");
 		
 		System.out.println("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>" + 
@@ -221,6 +221,10 @@ public class Garden {
 		System.out.println("\nIf interested, please enter 1 (yes) and if you want to cancel "
 				+ "please enter 2 ");
 		int j = sc.nextInt();
+		while(j!=1 && j!=2) {
+			System.out.println("Wrong code! Try again!");
+			j = sc.nextInt();
+		}
 		
 		switch(j) {
 		case 1:
